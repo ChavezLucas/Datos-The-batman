@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Batman</title>
+    <link rel="stylesheet" href="styles.css"><!--enlace con css-->
+    <script src="https://kit.fontawesome.com/daf9243bfc.js" crossorigin="anonymous"></script><!--enlace con pagina de iconos-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet"><!--enlace con google fonts-->
+</head>
+<body>
+
+    <header id="top"><!--titulo-->
+            <h1>The Batman</h1>
+            <a class="enlaces_header" href="#elenco_principal">Elenco principal</a>
+            <a class="enlaces_header" href="#teaser_Trailer">Teaser Trailer</a>    
+            <a class="enlaces_header" href="#imagenes_trailer">Imagenes del Trailer</a>
+            <a class="enlaces_header" href="#curiosidades">Curiosidades</a>
+    </header>
+
+    <hr>
+    
+    <div id="batman_top"><!--imagen top-->
+        <img id="batman_top_img" src="images/thebatman_wallpaper.jpg" alt="Portada de 'The Batman'">
+    </div>
+
+    <article id="tema_pagina"><!--tema de la pagina-->
+        <h2>Tema de la Pagina</h2>
+        <p>Esta pagina contiene algunos datos acerca del teaser trailer de "The Batman"</p>
+    </article>
+
+    <hr>
+    
+    <article id="secciones_principales"><!--Secciones del tema principal-->
+        <h2>Datos del trailer de "The Batman"</h2>
+        
+        <section id="elenco_principal">
+          <h3>Elenco principal</h3>
+          <ul>
+              <li>Robert Pattinson</li>
+              <li>Zoe Kravitz</li>
+              <li>Colin Farrell</li>
+              <li>Paulo Dano</li>
+              <li>Jeffrey Wright</li>
+          </ul>
+        </section>
+    
+        <section id="teaser_Trailer">
+            <h3>Teaser Trailer</h3>
+          <div >
+              <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/NLOp_6uPccQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <p>Fecha de subida: 22 de Agosto de 2020.</p>
+          </div>
+          <a  href="https://www.youtube.com/channel/UCjmJDM5pRKbUlVIzDYYWb6g"><i class="fab fa-youtube" style="color: tomato;"></i>Canal de Warner Bros.</a>
+        </section>
+
+        <section id="imagenes_trailer">
+            <h3>Imagenes del trailer</h3>
+            <div>
+                <img class="imgs" src="/images/Robert_Pattinson_TB.jpg" alt="Batman">
+                <img class="imgs" src="/images/batman2.jpg" alt="batman">
+                <img class="imgs" src="/images/batman_chest.jpg" alt="batman logo" >
+            </div>
+            <div>
+                <img class="imgs" src="images/batman3.jpg" alt="batman">
+                <img class="imgs" src="images/riddler.jpg" alt="acertijo">
+                <img class="imgs" src="images/deadman.jpg" alt="hombre muerto">
+            </div>
+        </section>
+        <section id="curiosidades">
+            <h3>Curiosidades</h3>
+            <ul>
+                <li>La serie "Gotham de HBO" es una precuela de esta pelicula</li>
+                <li>El trailer tiene,hasta este momento,23 millones de visitas</li>
+                <li>El traje de batman tiene un tono mas rustico que el de anteriores peliculas</li>
+                <li>Hay una teoria que dice que el logo de batman,el que esta ubicado en el pecho,estaria formado por la pistola que mato a sus padres</li>
+                <li>En esta pelicula se estaria contando el inicio de varios antagonistas de Batman</li>
+                <li>Los primeros minutos de la pelicula se estarian basando en la saga de comics "The Long Halloween"</li>
+            </ul>
+        </section>
+    </article>
+
+    <hr>
+
+    <section><!--registro-->
+        <h4>Registrate para obtener mas informacion</h4>
+        <label class="registro">Introduzca un usario</label>
+        <input class="registro" type="text">
+        <label class="registro">Introduzca una contraseña</label>
+        <input class="registro" type="password">
+        <label>Introduzca su fecha de nacimiento</label>
+        <input class="registro" type="date">
+        <button onclick="alert('Esta pagina no tiene registro.')" style="width: 75px;margin-top: 5px;">Enviar</button>
+    </section>
+    
+    <br>
+ 
+    <div id="volver_arriba"><!--link volver al top de la pagina-->
+        <a href="#top">Volver arriba</a>
+    </div>
+
+    <footer><!--contacto-->
+        Contactame via
+        <a class="twitter_icon" href="https://twitter.com/Anubbis32"><i class="fab fa-twitter-square" style="color: rgb(111, 197, 250);"></i></a>
+        <a href="https://www.facebook.com/Dicci32"><i class="fab fa-facebook-square" style="color: blue;"></i></a>
+        <img id="batman_chibi" src="images/batman_chibi.jpg"  alt="batman chibi">
+    </footer>
+    
+</body>
+</html>
